@@ -4,4 +4,37 @@ layout: default
 
 <header>
   {% include nav.html %}
+  <div class="intro">
+    <img src="http://via.placeholder.com/300x200" alt="frieza svg">
+    <h1>frieza</h1>
+    <p>The Emperor of all.</p>
+  </div>
 </header>
+<main>
+  <aside>
+    <div>
+      <h2>Expertise</h2>
+      <ul>
+        <li>Mass Destruction</li>
+        <li>Really Strong</li>
+        <li>ruthless</li>
+      </ul>
+    </div>
+  </aside>
+  <section>
+    <h2>The art behind Frieza</h2>
+    <p>"Simian bastard... I am Lord Frieza. None surpass me! No one even comes close! Etch this into your skull; I am emperor of the universe! The likes of you are only fit to grovel at my feet! Or better still... to die in disgrace AT THE HANDS OF YOUR MASTER!!!"</p>
+    <p><a href="#">Frieza</a></p>
+  </section>
+  <section>
+    {% for frieza in site.data.forms %}
+    <div>
+      <div>
+        <h2>{{frieza.title}}</h2>
+        <p>{{frieza.text}}</p>
+      </div>
+      <img src="{{frieza.img}}" alt="{{frieza.title}}">
+    </div>
+    {% endfor %}
+  </section>
+</main>
