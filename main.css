@@ -48,10 +48,17 @@ nav ul {
 }
 
 nav ul li {
+  font-size: 20px;
+  font-weight: bold;
   margin: 0 2%;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  transition: color 1s ease;
+}
+
+nav ul li a:hover {
+  color: #10c18a;
 }
