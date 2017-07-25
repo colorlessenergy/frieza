@@ -4,15 +4,15 @@ body {
 }
 
 aside h2 {
-  color: #fff;
-  background-color: #04044a;
+  color: #10c18a;
+  background-color: #031022;
   font-size: 40px;
   margin: 0;
   height: 100px;
 }
 
 aside div {
-  background-color: #020256;
+  background-color: #0f2647;
   height: 250px
 }
 
@@ -25,6 +25,40 @@ aside ul {
 aside ul li {
   color: #fff;
   font-size: 25px;
+}
+
+footer {
+  align-items: center;
+  background-color: #17a061;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+footer div {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  width: 80%;
+}
+
+footer div p {
+  font-weight: 800;
+}
+
+footer div p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer div p a:hover {
+  color: #0f2647;
+}
+
+footer p {
+  color: #fff;
 }
 
 header {
@@ -71,7 +105,6 @@ main .art div {
 main .art h2, main .frieza-forms .frieza-forms-contain div h3  {
   color: #0f2647;
   font-size: 40px;
-  margin-bottom: 0;
 }
 
 main .art p, main .frieza-forms .frieza-forms-contain div p {
@@ -126,8 +159,31 @@ main .frieza-forms .frieza-forms-contain div h3 {
 }
 
 main .stats {
+  align-items: center;
   display: flex;
   justify-content: space-around;
+  height: 300px;
+}
+
+main .stats h2 {
+  color: #17a061;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+main .stats p {
+  color: #5a6c86;
+  font-size: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+
+main .width-art div {
+  width: 30%;
+}
+
+main .width-art div span {
+  color: #17a061;
 }
 
 nav {
@@ -164,4 +220,15 @@ nav ul li a:hover {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.logo img {
+  width: 40%;
 }
