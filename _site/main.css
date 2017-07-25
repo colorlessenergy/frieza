@@ -5,8 +5,26 @@ body {
 
 aside h2 {
   color: #fff;
-  background-color: darkblue;
+  background-color: #04044a;
   font-size: 50px;
+  margin: 0;
+  height: 100px;
+}
+
+aside div {
+  background-color: #020256;
+  height: 250px
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+aside ul li {
+  color: #fff;
+  font-size: 25px;
 }
 
 header {
@@ -48,7 +66,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   height: 100%;
-  list-style: none;
+  list-style-type: none;
   margin: 0 2% 0 0;
   padding: 0;
 }
@@ -67,4 +85,10 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #10c18a;
+}
+
+.center-flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
