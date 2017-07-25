@@ -233,6 +233,68 @@ nav ul li a:hover {
   width: 40%;
 }
 
+.responsive-nav {
+  display: none;
+}
+
+.responsive-nav div {
+  align-items: center;
+  background-color: rgba(16, 193, 138, 0.5);
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+
+.responsive-nav div img, .responsive-nav div p {
+  margin: 0 3%;
+}
+
+.responsive-nav div img {
+  cursor: pointer;
+}
+
+.responsive-nav p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.responsive-nav .nav-responsive {
+  background-color: rgba(16, 193, 138, 1);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%);
+  transition: transform 0.6s ease;
+}
+
+.responsive-nav .nav-responsive div {
+  border-bottom: 1px solid #fff;
+}
+
+.responsive-nav .nav-responsive ul {
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.responsive-nav .nav-responsive ul li {
+  margin: 2%;
+}
+
+.responsive-nav .nav-responsive.toggle-nav {
+  transform: translateY(0);
+}
+
 
 @media screen and (max-width: 787px) {
   header {
@@ -272,6 +334,18 @@ nav ul li a:hover {
 
   main .frieza-forms .frieza-forms-contain div, main .frieza-forms .frieza-forms-contain img {
     width: 100%;
+  }
+
+  nav {
+    height: 50px;
+  }
+
+  .responsive-nav {
+    display: block;
+  }
+
+  .nav {
+    display: none;
   }
 }
 
