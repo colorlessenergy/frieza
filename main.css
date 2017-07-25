@@ -84,7 +84,7 @@ header .intro h1, header .intro p {
 }
 
 header .intro h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 header .intro p  {
@@ -231,4 +231,77 @@ nav ul li a:hover {
 
 .logo img {
   width: 40%;
+}
+
+
+@media screen and (max-width: 787px) {
+  header {
+    background-position: center;
+  }
+
+  main .art {
+    height: 300px;
+  }
+
+  main .art div {
+    width: 75%;
+  }
+
+  main .art2, main .width-art {
+    height: 200px;
+  }
+
+  main .art h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  main .art p {
+    font-size: 18px;
+  }
+
+  main .frieza-forms {
+    align-items: center;
+    height: 1800px;
+  }
+
+  main .frieza-forms .frieza-forms-contain {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  main .frieza-forms .frieza-forms-contain div, main .frieza-forms .frieza-forms-contain img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  main .art div {
+    width: 90%;
+  }
+
+  main .art h2, main .frieza-forms .frieza-forms-contain div h3 {
+    font-size: 20px;
+  }
+
+  main .art p, main .frieza-forms .frieza-forms-contain div p {
+    font-size: 15px;
+  }
+
+  main .frieza-forms {
+    height: 1100px;
+  }
+
+  main .stats div {
+    text-align: center;
+  }
+
+  main .stats h2 {
+    font-size: 20px;
+  }
+
+  main .stats p {
+    font-size: 18px;
+  }
+
 }
