@@ -27,22 +27,24 @@ layout: default
       <p class="link"><a href="#">Frieza</a></p>
     </div>
   </section>
-  <section>
+  <section class="frieza-forms">
     {% for frieza in site.data.forms %}
-    <div>
+    <div class="frieza-forms-contain">
       <div>
-        <h2>{{frieza.title}}</h2>
+        <h3>{{frieza.title}}</h3>
         <p>{{frieza.text}}</p>
       </div>
       <img src="{{frieza.img}}" alt="{{frieza.title}}">
     </div>
     {% endfor %}
   </section>
-  <section>
-    <h2>Main Principle of Frieza</h2>
-    <p>Frieza has alot of joy destroing living creatures and wants to rule over everyone. He is setting out to manipulate anyone to get what he wants. He is cold-hearted and his has no feelings for anyone or anything.</p>
+  <section class="art">
+    <div>
+      <h2>Main Principle of Frieza</h2>
+      <p>Frieza has alot of joy destroing living creatures and wants to rule over everyone. He is setting out to manipulate anyone to get what he wants. He is cold-hearted and his has no feelings for anyone or anything.</p>
+    </div>
   </section>
-  <section>
+  <section class="stats">
     <div>
       <h2>100 MLN</h2>
       <p>Killed</p>
