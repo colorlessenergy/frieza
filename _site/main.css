@@ -6,7 +6,7 @@ body {
 aside h2 {
   color: #fff;
   background-color: #04044a;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   height: 100px;
 }
@@ -55,6 +55,52 @@ header .intro h1 {
 
 header .intro p  {
   font-size: 25px;
+}
+
+main .art {
+  align-items: center;
+  display: flex;
+  height: 400px;
+  margin-left: 3%;
+}
+
+main .art div {
+  width: 40%;
+}
+
+main .art h2 {
+  color: #0f2647;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+main .art p {
+  color: #5a6c86;
+  font-size: 19px;
+}
+
+main .art p:first-of-type {
+  margin-bottom: 30px;
+}
+
+main .art .link a {
+  border: #17a061 2px solid;
+  color: #17a061;
+  font-weight: 800;
+  padding: 8px 10px;
+  text-decoration: none;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to top, #17a061 50%, transparent 50%);
+  transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+}
+
+main .art .link a:hover {
+  color: #fff;
+  border-color: #17a061;
+  background-image:
+  linear-gradient(to top, #17a061 51%, transparent 50%);
+  background-position: 0 100%;
+  transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
 }
 
 nav {
