@@ -94,7 +94,7 @@ header .intro p  {
 main .art {
   align-items: center;
   display: flex;
-  height: 500px;
+  height: 400px;
   margin-left: 3%;
 }
 
@@ -293,6 +293,13 @@ nav ul li a:hover {
 
 .responsive-nav .nav-responsive.toggle-nav {
   transform: translateY(0);
+}
+
+
+@media screen and (max-width: 1024px) {
+  main .art div {
+    width: 50%;
+  }
 }
 
 
