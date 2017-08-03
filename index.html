@@ -9,8 +9,8 @@ layout: default
     <p>EMPEROR OF THE UNIVERSE.</p>
   </div>
 </header>
-<main class="editable">
-  <aside>
+<main>
+  <aside class="editable">
     <h2 class="center-flex">EXPERTISE</h2>
     <div class="center-flex">
       <ul>
@@ -20,14 +20,14 @@ layout: default
       </ul>
     </div>
   </aside>
-  <section class="art">
+  <section class="art editable">
     <div>
       <h2>THE ART BEHIND FRIEZA</h2>
       <p>"Simian bastard... I am Lord Frieza. None surpass me! No one even comes close! Etch this into your skull; I am emperor of the universe! The likes of you are only fit to grovel at my feet! Or better still... to die in disgrace AT THE HANDS OF YOUR MASTER!!!"</p>
       <p class="link"><a href="#">Frieza</a></p>
     </div>
   </section>
-  <section class="frieza-forms">
+  <section class="frieza-forms editable">
     {% for frieza in site.data.forms %}
     <div class="frieza-forms-contain">
       <div>
@@ -38,13 +38,13 @@ layout: default
     </div>
     {% endfor %}
   </section>
-  <section class="art art2">
+  <section class="art art2 editable">
     <div>
       <h2>Main Principle of Frieza</h2>
       <p>Frieza has alot of joy destroying living creatures and wants to rule over everyone. He is setting out to manipulate anyone to get what he wants. He is cold-hearted and his has no feelings for anyone or anything.</p>
     </div>
   </section>
-  <section class="stats">
+  <section class="stats editable">
     <div>
       <h2>100 MLN</h2>
       <p>KILLED</p>
@@ -54,7 +54,7 @@ layout: default
       <p>POWER POTENTIAL</p>
     </div>
   </section>
-  <section class="art width-art">
+  <section class="art width-art editable">
     <div>
       <h2>
         <span>Frieza</span> has
@@ -63,7 +63,7 @@ layout: default
     <p class="link"><a href="#">learn more</a></p>
     </div>
   </section>
-  <aside class="logo">
+  <aside class="logo editable">
     <img src="{{site.baseurl}}/images/dbs-logo.png" alt="dbs logo" />
     <img src="{{site.baseurl}}/images/dbz-logo.png" alt="dbz logo" />
   </aside>
